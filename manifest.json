@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "Currency Converter EU",
+
+    "default_locale": "en",
+    "description": "Easy way to convert currency",
+
+    "content_scripts": [{
+        "matches": ["*.*.*"],
+        "js": ["cce.js"]
+    }],
+    "options_ui": {
+        "page": "index.html"
+    }
+}
