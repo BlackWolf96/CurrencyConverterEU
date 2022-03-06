@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: sans-serif;
+    width:450px;
+}
+header{
+    text-align:center;
+}
+header > h1{
+    text-shadow: 1px 2px 4px grey;
+}
+.div-currency{
+    padding:15px;
+    text-align: center;
+}
+select{
+    width:250px;
+    height:50px;
+    background-color:black;
+    color:white;
+    border-radius: 10px;
+}
+select:focus{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
