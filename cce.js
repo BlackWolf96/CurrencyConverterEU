@@ -4,3 +4,7 @@ const getDataFromXML = () => {
     req.send();
     var res = req.responseXML;
 }
+const cce = async () => {
+    const xmlData = await getDataFromXML();
+}
+window.addEventListener('load', cce);
